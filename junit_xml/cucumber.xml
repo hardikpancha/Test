@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="51.94741">
+<testcase classname="Search" name="Basic hotel search" time="25.85495">
+<system-out><![CDATA[Given the user has clicked Home to access the search page...................passed
+And they have chosen the Hotels option......................................passed
+And they have chosen a hotel for "montreal".................................passed
+And they have chosen with dates "11/22/2018" to "11/24/2018"................passed
+And they have selected number of 1 and 0....................................passed
+When they click search......................................................passed
+Then matching results are displayed.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Search" name="Basic hotel search 2" time="26.09246">
+<system-out><![CDATA[Given the user has clicked Home to access the search page...................passed
+And they have chosen the Hotels option......................................passed
+And they have chosen a hotel for "new york".................................passed
+And they have chosen with dates "11/11/2018" to "11/20/2018"................passed
+And they have selected number of 5 and 1....................................passed
+When they click search......................................................passed
+Then matching results are displayed.........................................passed
+]]></system-out>
+</testcase>
+</testsuite>

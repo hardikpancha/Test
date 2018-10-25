@@ -1,0 +1,18 @@
+Feature: Login 
+
+Scenario: Login 
+
+	Given the user has navigated to the login page 
+	When they provide username and password 
+		| user@phptravels.com | demouser |
+	Then the user is logged in 
+	Then they will be directed to their account page 
+	Then Close the browser 
+	
+Scenario: Login - bad password 
+
+	Given user has to be on login page
+	When they enter username and password 
+		|user@phptravels.com | demuser|
+	Then an error will be provided stating Invalid Email or Password
+	Then Close the browser
